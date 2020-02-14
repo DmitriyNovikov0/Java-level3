@@ -11,7 +11,7 @@ public class Box<T extends Fruit> {
     }
 
     public void addFruit(T fruit){
-
+        storage.add(fruit);
     }
 
     public double getWeight(){
